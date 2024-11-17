@@ -1,18 +1,21 @@
 "use client"
-import { Transition } from "@/components/Transition";
+import { BaseProject } from "./Base";
 import Image from "next/image";
 
 export function Portfolio() {
-  return (
-    <Transition>
-        {/* className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold" */}
-        <p className="text-4xl typewriter">My Portfolio (This One)</p>
-
-        <div className="text-center md:text-left font-[family-name:var(--font-geist-mono)]">
-            <p className="text-xl mb-12">11/16/2024 - 11/18/2024</p>
-            <p className="whitespace-pre-line">Lorem Ipsum Dolor Sit Anem
-            </p>
-        </div>
-    </Transition>
-  );
+    const skillsUsed = ["Next.js", "Framer-Motion", "Tailwind CSS", "CSS"]
+    return (
+        <BaseProject
+        title="My Portfolio (This one)"
+        skillsUsed={skillsUsed}
+        sourceLink={"https://github.com/0xRael/Portfolio"}
+        time="11/16/2024 - Now"
+        >
+            Building my portfolio was an exciting journey that allowed me to put my skills in front-end development into a dynamic web experience.
+            I think the best feature of this project is the Navigation and maybe the skill maps section.
+<br/><br/>
+            The source code for my portfolio is available on GitHub. Feel free to explore the repository to see the implementation details and learn more
+            about the technologies used.
+        </BaseProject>
+    );
 }

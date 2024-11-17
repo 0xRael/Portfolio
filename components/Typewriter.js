@@ -2,7 +2,7 @@
 import  { useState, useEffect, useMemo } from 'react';
 
 const useTypewriter = (text, speed = 20, pause=1000, repeat=true) => {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(1);
   const displayText = useMemo(() => text.slice(0, index), [index]);
   const [reverse, setReverse] = useState(false);
 

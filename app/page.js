@@ -1,11 +1,11 @@
 "use client"
 import  { useState, useEffect } from 'react';
-import { Header, Skills, Portfolio } from "@/components/sections";
+import { Header, Skills, Portfolio, MusicNFT } from "@/components/sections"; // Each of the section on the page
 import { Sidebar } from "@/components/Sidebar";
 
 export default function Home() {
   const [selected, select] = useState(0);
-  const elements = [<Header />, <Skills />, <Portfolio />];
+  const elements = [<Header />, <Skills />, <Portfolio />, <MusicNFT />];
   const [element, setElement] = useState(<Header />);
 
   useEffect(() => {

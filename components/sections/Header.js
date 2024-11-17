@@ -9,9 +9,9 @@ export function Header() {
         <Typewriter className="text-5xl typewriter" text="Hey There!    I'm Rael" speed={80} />
 
         <div className="text-center md:text-left font-[family-name:var(--font-geist-mono)]">
-            <p className="text-xl mb-12">Blockchain Developer | Front-End Developer.</p>
-            <p className="text-3xl mb-2">ABOUT ME</p>
-            <p className="whitespace-pre-line"> My name is Rael. I have multiple certifications I've got online in Blockchain and Coding fields, and I am currently studying Computer Science. I'm from Venezuela and I'm 16 years old.
+            <p className="text-xl mb-12 text-orange-700">Blockchain Developer | Front-End Developer.</p>
+            <p className="text-3xl mb-2 text-orange-300">ABOUT ME</p>
+            <p className="whitespace-pre-line"> My name is Rael. I have multiple certificates I've got online in Blockchain and Coding fields, and I am currently studying Computer Science. I'm from Venezuela and I'm 16 years old.
 <br/><br/>
 Since I was a kid I felt attracted towards the creation process of software and games. So I started learning english and coding for fun, doing games in Scratch at first.
 <br/><br/>

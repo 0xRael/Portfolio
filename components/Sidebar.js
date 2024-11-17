@@ -1,5 +1,5 @@
 "use client"
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 function Element ({element, children, select }){
     return (
@@ -27,7 +27,7 @@ export const Sidebar = ({ select }) => {
           <Element element={1} select={select}>Skills</Element>
           <p className="py-2 text-xl mt-12 mb-3">- Projects - - -</p>
           <Element element={2} select={select}>Portfolio</Element>
-          <Element element={2} select={select}>Music NFT Marketplace</Element>
+          <Element element={3} select={select}>Music NFT Marketplace</Element>
         </nav>
       </div>
     );

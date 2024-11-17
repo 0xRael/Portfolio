@@ -1,5 +1,6 @@
 "use client"
 import { Transition } from "@/components/Transition"
+import { motion } from 'framer-motion';
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiVisualstudio } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
@@ -53,12 +54,18 @@ export function Skills() {
 									key={tech.category}
 									className="flex flex-col gap-4 flex-1 md:flex-auto"
 								>
-									<h3 tabIndex="0" className="text-2xl font-bold">
+									<h3 tabIndex="0" className="text-2xl font-bold text-orange-300">
 										{tech.category}
 									</h3>
 									<div className="flex items-center flex-wrap gap-x-5 gap-y-8">
 										{tech.items.map((item) => (
-											<div key={item.name} className="group relative flex">
+											<motion.div
+											
+											initial = {{ opacity: 0.8, y: 0, scale:1 }}
+											whileHover = {{ opacity: 1.0, y:-10, scale:1.2 }}
+
+											key={item.name} className="group relative flex"
+											>
 												<span tabIndex="0" role="img">
 													{item.icon}
 												</span>
@@ -68,7 +75,7 @@ export function Skills() {
 												>
 													{item.name}
 												</span>
-											</div>
+											</motion.div>
 										))}
 									</div>
 								</div>
