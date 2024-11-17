@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.typewriter {
+  border-right: .15em solid #ff7700cc; /* The typwriter cursor */
+  animation: 
+    blink-caret 1s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ff7700cc; }
+}
