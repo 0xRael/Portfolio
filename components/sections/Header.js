@@ -11,11 +11,18 @@ export function Header() {
         <div className="text-center md:text-left font-[family-name:var(--font-geist-mono)]">
             <p className="text-xl mb-12 text-orange-700">Blockchain Developer | Front-End Developer.</p>
             <p className="text-3xl mb-2 text-orange-300">ABOUT ME</p>
-            <p className="whitespace-pre-line"> My name is Rael. I have multiple certificates I've got online in Blockchain and Coding fields, and I am currently studying Computer Science. I'm from Venezuela and I'm 16 years old.
-<br/><br/>
-Since I was a kid I felt attracted towards the creation process of software and games. So I started learning english and coding for fun, doing games in Scratch at first.
-<br/><br/>
-One day, I decided to try something new, and I started learning Python, Javascript and then got into Web Development. In August 2024, I started taking this more seriously, I learnt Solidity at Alchemy's University Bootcamp, and built a final project I feel proud of, while getting familiar with Next.js.
+            <p className="whitespace-pre-line">
+A passionate and dedicated programmer with a keen interest in blockchain technology. Currently pursuing a Computer Science degree, I've honed my skills through online
+certifications in blockchain and coding. <br/><br/>
+
+My journey began with a childhood fascination for software development and game creation. This early interest ignited a passion for learning and experimentation. I
+started with foundational programming languages like Python and JavaScript, and delved into web development. <br/><br/>
+
+In August 2024, I took a significant step forward by enrolling in Alchemy's University Bootcamp. This intensive program allowed me to dive deep into Solidity, the
+language of smart contracts. I successfully completed a challenging final project, demonstrating my proficiency in both Solidity and Next.js. <br/><br/>
+
+I'm eager to apply my technical skills and problem-solving abilities to real-world projects. I'm confident in my ability to contribute to innovative solutions and
+collaborate effectively with teams. Let's connect and explore opportunities together. <br/><br/>
             </p>
         </div>
     </Transition>

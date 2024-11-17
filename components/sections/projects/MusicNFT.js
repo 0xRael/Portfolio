@@ -14,14 +14,26 @@ export function MusicNFT() {
         >
             Not your usual NFT market, but a Music-oriented one. Basically, a platform where musicians can mint NFTs with their music, put them to sell,
             and users can easily buy these NFTs, with all the Market logic happening on-chain. (I made and deployed the contracts.)
-<br/><br/>
+            <br/><br/>
             You need an Ethereum Wallet to use this! This supports WalletConnect! Contracts were deployed to Sepolia, when minting, NFT metadata uploads
             to IPFS via Pinata API! So you can now view them in other Markets too!
-<br/><br/>
-            There's even a Share button on each NFT that allows you see it on Etherscan, OpenSea or just get a link to it in this app. I learnt Next.js
-            doing this project, so the Source Code can be a bit messy!
-<br/><br/>
-            Later on, I also added framer-motion and it started to look better! Hope you like it!
+            <br/><br/>
+            A Dedicated Platform for Music NFTs:
+                <li>Empower musicians to mint and sell their music as unique digital assets.</li>
+                <li>Provide fans with the opportunity to own and support their favorite artists.</li>
+            <br/>
+            Seamless On-Chain Transactions:
+                <li>Efficient and secure buying and selling of music NFTs directly on the blockchain.</li>
+                <li>Transparent and verifiable ownership records.</li>
+            <br/>
+            IPFS Integration for Enhanced Metadata:
+                <li>Store and access NFT metadata on the decentralized IPFS network.</li>
+                <li>Ensure long-term accessibility and immutability of music assets.</li>
+            <br/>
+            User-Friendly Interface with Next.js:
+                <li>Intuitive and visually appealing user experience.</li>
+                <li>Easy navigation and seamless interactions.</li>
+            <br/>
  
         </BaseProject>
     );
