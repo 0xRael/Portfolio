@@ -29,12 +29,6 @@ export function MusicNFT() {
             IPFS Integration for Enhanced Metadata:
                 <li>Store and access NFT metadata on the decentralized IPFS network.</li>
                 <li>Ensure long-term accessibility and immutability of music assets.</li>
-            <br/>
-            User-Friendly Interface with Next.js:
-                <li>Intuitive and visually appealing user experience.</li>
-                <li>Easy navigation and seamless interactions.</li>
-            <br/>
- 
         </BaseProject>
     );
 }
