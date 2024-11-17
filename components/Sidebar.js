@@ -35,7 +35,7 @@ function SocialIcon({ href, icon: Icon }) {
 
 export const Sidebar = ({ select }) => {
   return (
-    <div className="size-auto md:size-1/4 h-screen block bg-gray-100 p-6">
+    <div className="size-auto md:size-1/4 h-screen block">
       <div className="mb-8 text-center">
         <h1 className="text-3xl font-bold mb-4">@Rael</h1>
         <div className="flex justify-center">
