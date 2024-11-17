@@ -32,40 +32,6 @@ function SocialIcon({ href, icon: Icon }) {
     </motion.a>
   )
 }
-"use client"
-
-import { motion } from 'framer-motion';
-import { FaLinkedin, FaGithub, FaDiscord, FaTwitter } from 'react-icons/fa';
-
-function Element({ element, children, select }) {
-  return (
-    <motion.p
-      initial={{ opacity: 0.8, y: 0, scale: 1, backgroundColor: "#00000000" }}
-      whileHover={{ opacity: 1.0, y: -10, scale: 1.1, backgroundColor: "#ff770077" }}
-      whileTap={{ opacity: 1.0, y: 10, scale: 1.1 }}
-      className="py-2 active:bg-gray-300 mb-3 cursor-pointer"
-      onClick={() => select(element)}
-      onMouseEnter={() => select(element)}
-    >
-      <a>{children}</a>
-    </motion.p>
-  )
-}
-
-function SocialIcon({ href, icon: Icon }) {
-  return (
-    <motion.a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      whileHover={{ scale: 1.2 }}
-      whileTap={{ scale: 0.9 }}
-      className="text-2xl mx-2 text-gray-300 hover:text-orange-300"
-    >
-      <Icon />
-    </motion.a>
-  )
-}
 
 export const Sidebar = ({ select }) => {
   return (
