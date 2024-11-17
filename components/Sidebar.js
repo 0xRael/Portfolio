@@ -5,7 +5,7 @@ function Element ({element, children, select }){
     return (
         <motion.p
 
-        initial = {{ opacity: 0.8, y: 0, scale:1 }}
+        initial = {{ opacity: 0.8, y: 0, scale:1, backgroundColor: "#00000000" }}
         whileHover = {{ opacity: 1.0, y:-10, scale:1.1, backgroundColor: "#ff770077" }}
         whileTap={{ opacity: 1.0, y:10, scale:1.1 }}
 
