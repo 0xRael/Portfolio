@@ -12,12 +12,6 @@ export function MusicNFT() {
         liveLink={"https://music-nft-next-js.vercel.app/"}
         time="09/15/2024 - Now (I add stuff from time to time)"
         >
-            Not your usual NFT market, but a Music-oriented one. Basically, a platform where musicians can mint NFTs with their music, put them to sell,
-            and users can easily buy these NFTs, with all the Market logic happening on-chain. (I made and deployed the contracts.)
-            <br/><br/>
-            You need an Ethereum Wallet to use this! This supports WalletConnect! Contracts were deployed to Sepolia, when minting, NFT metadata uploads
-            to IPFS via Pinata API! So you can now view them in other Markets too!
-            <br/><br/>
             A Dedicated Platform for Music NFTs:
                 <li>Empower musicians to mint and sell their music as unique digital assets.</li>
                 <li>Provide fans with the opportunity to own and support their favorite artists.</li>
