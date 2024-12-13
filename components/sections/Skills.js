@@ -45,7 +45,7 @@ export function Skills() {
     return (
       <Transition>
           <div className="text-center md:text-left font-[family-name:var(--font-geist-mono)]">
-              <p className="mb-2">I have experience with:</p>
+              <p className="mb-2 text-base 2xl:text-xl">I have experience with:</p>
               {!!TECHNOLOGIES.length && (
 					<div className="mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10">
 						{TECHNOLOGIES.map((tech, index) => {

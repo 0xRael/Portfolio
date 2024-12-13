@@ -11,7 +11,7 @@ function Element({ element, children, select }) {
       initial={{ opacity: 0.8, y: 0, scale: 1, backgroundColor: "#00000000" }}
       whileHover={{ opacity: 1.0, y: -10, scale: 1.1, backgroundColor: "#ff770077" }}
       whileTap={{ opacity: 1.0, y: 10, scale: 1.1 }}
-      className="py-2 active:bg-gray-300 mb-3 cursor-pointer"
+      className="py-2 active:bg-gray-300 mb-1 xl:mb-3 cursor-pointer"
       onClick={() => select(element)}
       onMouseEnter={() => select(element)}
     >
@@ -28,7 +28,7 @@ function SocialIcon({ href, icon: Icon }) {
       rel="noopener noreferrer"
       whileHover={{ scale: 1.2 }}
       whileTap={{ scale: 0.9 }}
-      className="text-2xl mx-2 text-gray-300 hover:text-orange-300"
+      className="text-2xl sm:text-xl xl:text-2xl 2xl:text-3xl mx-2 text-gray-300 hover:text-orange-300"
     >
       <Icon />
     </motion.a>
@@ -55,10 +55,11 @@ export const Sidebar = ({ select, isOpen, setIsOpen, isMobile }) => {
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
-            className={`fixed top-0 left-0 h-full text-white p-4 overflow-y-auto ${
-              isMobile ? 'w-full pl-12 pr-12' : 'w-1/4 pl-8 pr-8'
+            className={`fixed top-0 h-full left-0 text-white p-4 overflow-y-auto ${
+              isMobile ? 'w-full pl-12 pr-12' : 'flex items-center w-1/4 pl-8 pr-8 overflow-x-visible'
             }`}
           >
+          <div className="w-full">
             <div className="mb-8 text-center">
               <div className="mb-4 flex justify-center">
                 <Image
@@ -69,7 +70,7 @@ export const Sidebar = ({ select, isOpen, setIsOpen, isMobile }) => {
                   className="rounded-full"
                 />
               </div>
-              <h1 className="text-3xl font-bold mb-4">@Rael</h1>
+              <h1 className="text-3xl sm:text-xl xl:text-3xl 2xl:text-4xl font-bold mb-4">@Rael</h1>
               <div className="flex justify-center">
                 <SocialIcon href="https://www.linkedin.com/in/rael-de-agrela-292618321/" icon={FaLinkedin} />
                 <SocialIcon href="https://github.com/0xRael" icon={FaGithub} />
@@ -77,13 +78,14 @@ export const Sidebar = ({ select, isOpen, setIsOpen, isMobile }) => {
                 <SocialIcon href="https://twitter.com/0x_rael" icon={FaTwitter} />
               </div>
             </div>
-            <nav className="flex flex-col py-2 text-lg">
+            <nav className="flex flex-col xl:py-2 text-lg sm:text-sm xl:text-lg 2xl:text-2xl">
               <Element element={0} select={select}>About Me</Element>
               <Element element={1} select={select}>Skills</Element>
-              <p className="py-2 text-xl mt-12 mb-3 font-semibold">- Projects -</p>
+              <p className="py-2 text-base xl:text-xl mt-3 xl:mt-12 mb-3 font-semibold">- Projects -</p>
               <Element element={2} select={select}>Portfolio</Element>
               <Element element={3} select={select}>Music NFT Marketplace</Element>
             </nav>
+          </div>
           </motion.div>
         )}
       </AnimatePresence>

@@ -10,7 +10,7 @@ export function MusicNFT() {
         skillsUsed={skillsUsed}
         sourceLink={"https://github.com/0xRael/Music-Nft-Next.js"}
         liveLink={"https://music-nft-next-js.vercel.app/"}
-        time="09/15/2024 - Now (I add stuff from time to time)"
+        time="09/15/2024 - 09/24/2024"
         >
             A Dedicated Platform for Music NFTs:
                 <li>Empower musicians to mint and sell their music as unique digital assets.</li>

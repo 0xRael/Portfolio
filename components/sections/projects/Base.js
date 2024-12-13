@@ -30,7 +30,7 @@ export function BaseProject({skillsUsed, sourceLink, liveLink, time, title, chil
                     {sourceLink ? (<a href={sourceLink} className="flex text-orange-200 hover:underline mr-3" target="_blank" rel="noopener noreferrer"><IoIosGitBranch /> Source Code</a>) : (<div></div>)}
                     {liveLink ? (<a href={liveLink} className="flex text-orange-200 hover:underline mr-3" target="_blank" rel="noopener noreferrer"><TbWorldWww /> See Live</a>) : (<div></div>)}
                 </div>
-                <p className="whitespace-pre-line">{children}
+                <p className="whitespace-pre-line text-base 2xl:text-xl">{children}
                 </p>
             </div>
 
