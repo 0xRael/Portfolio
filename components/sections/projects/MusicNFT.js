@@ -1,6 +1,6 @@
 "use client"
 import { BaseProject } from "./Base";
-import Image from "next/image";
+import screenshot from '@/public/MusicNFT.png';
 
 export function MusicNFT() {
     const skillsUsed = ["Next.js", "Solidity", "Wagmi", "Ethers.js", "Framer-Motion", "Tailwind CSS", "Pinata", "IPFS"]
@@ -10,6 +10,7 @@ export function MusicNFT() {
         skillsUsed={skillsUsed}
         sourceLink={"https://github.com/0xRael/Music-Nft-Next.js"}
         liveLink={"https://music-nft-next-js.vercel.app/"}
+        image={screenshot}
         time="09/15/2024 - 09/24/2024"
         >
             A Dedicated Platform for Music NFTs:

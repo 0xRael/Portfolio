@@ -1,6 +1,5 @@
 "use client"
 import { BaseProject } from "./Base";
-import Image from "next/image";
 
 export function Portfolio() {
     const skillsUsed = ["Next.js", "Framer-Motion", "Tailwind CSS", "CSS"]
