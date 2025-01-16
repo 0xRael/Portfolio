@@ -2,14 +2,14 @@
 
 import { useState, useEffect } from 'react';
 import { Sidebar } from '@/components/Sidebar';
-import { Header, Skills, Portfolio, MusicNFT } from "@/components/sections";
+import { Header, Skills, Portfolio, MusicNFT, AnimeRecommender } from "@/components/sections";
 
 export default function Home() {
   const [selected, setSelected] = useState(0);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  const elements = [<Header />, <Skills />, <Portfolio />, <MusicNFT />];
+  const elements = [<Header />, <Skills />, <Portfolio />, <MusicNFT />, <AnimeRecommender />];
   const [element, setElement] = useState(elements[0]);
 
   useEffect(() => {
