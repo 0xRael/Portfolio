@@ -14,7 +14,7 @@ export function AnimeRecommender() {
         time="01/11/2025 - 01/15/2025"
         >
             A personalized anime recommendation system that utilizes Anilist's GraphQL API to fetch user data and calculate tailored suggestions. By analyzing a user's viewing history, preferences, and ratings, the system provides a weighted ranking of anime recommendations, taking into account watch time, genre, and tag similarity.
-            <br/>
+            <br/><br/>
             Key Features:
                 <li>Integrates with Anilist account to fetch user data and preferences</li>
                 <li>Utilizes GraphQL API to fetch data and calculate recommendations</li>
