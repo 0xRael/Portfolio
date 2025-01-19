@@ -6,8 +6,9 @@ import { DiCss3, DiVisualstudio } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaEthereum, FaPython, FaGitAlt } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
+import { BiLogoGraphql } from "react-icons/bi";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
-import { SiWagmi, SiIpfs, SiSolidity } from "react-icons/si";
+import { SiWagmi, SiIpfs, SiSolidity, SiTypescript } from "react-icons/si";
 
 const TECHNOLOGIES = [
 	{
@@ -15,7 +16,8 @@ const TECHNOLOGIES = [
 		items: [
 			{ name: "HTML", icon: <AiFillHtml5 size={32} /> },
 			{ name: "CSS", icon: <DiCss3 size={32} /> },
-			{ name: "JS", icon: <IoLogoJavascript size={32} /> },
+			{ name: "JavaScript", icon: <IoLogoJavascript size={32} /> },
+			{ name: "TypeScript", icon: <SiTypescript size={32} /> },
 			{ name: "React", icon: <FaReact size={32} /> },
 			{ name: "Next.js", icon: <TbBrandNextjs size={32} /> },
 			{ name: "Tailwind CSS", icon: <TbBrandTailwind size={32} /> },
@@ -36,7 +38,8 @@ const TECHNOLOGIES = [
 		items: [
 			{ name: "Git", icon: <FaGitAlt size={32} /> },
 			{ name: "VsCode", icon: <DiVisualstudio size={32} /> },
-			{ name: "Python", icon: <FaPython size={32} /> }
+			{ name: "Python", icon: <FaPython size={32} /> },
+			{ name: "GraphQL", icon: <BiLogoGraphql size={32} /> }
 		]
 	}
 ];
