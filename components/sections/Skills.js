@@ -6,7 +6,6 @@ import { DiCss3, DiVisualstudio } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaEthereum, FaPython, FaGitAlt } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
-import { BiLogoGraphql } from "react-icons/bi";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import { SiWagmi, SiIpfs, SiSolidity, SiTypescript } from "react-icons/si";
 
@@ -38,8 +37,7 @@ const TECHNOLOGIES = [
 		items: [
 			{ name: "Git", icon: <FaGitAlt size={32} /> },
 			{ name: "VsCode", icon: <DiVisualstudio size={32} /> },
-			{ name: "Python", icon: <FaPython size={32} /> },
-			{ name: "GraphQL", icon: <BiLogoGraphql size={32} /> }
+			{ name: "Python", icon: <FaPython size={32} /> }
 		]
 	}
 ];

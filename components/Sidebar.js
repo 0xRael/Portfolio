@@ -82,6 +82,7 @@ export const Sidebar = ({ select, isOpen, setIsOpen, isMobile }) => {
               <Element element={0} select={select}>About Me</Element>
               <Element element={1} select={select}>Skills</Element>
               <p className="py-2 text-base xl:text-xl mt-3 xl:mt-12 mb-3 font-semibold">- Projects -</p>
+              <Element element={5} select={select}>Reddit Clone</Element>
               <Element element={3} select={select}>Music NFT Marketplace</Element>
               <Element element={4} select={select}>Anime Recommender</Element>
               <Element element={2} select={select}>Portfolio</Element>

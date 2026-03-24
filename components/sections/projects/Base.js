@@ -35,7 +35,7 @@ export function BaseProject({skillsUsed, sourceLink, liveLink, time, title, imag
                 <Image
                   src={image}
                   alt="Profile picture"
-                  className="rounded-full"
+                  className="my-3"
                 />) : (<div className="mb-12"></div>)}
                 <p className="whitespace-pre-line text-base 2xl:text-xl">{children}
                 </p>

@@ -9,7 +9,7 @@ export function Header() {
         <Typewriter className="text-5xl typewriter" text="Hey There!    I'm Rael" speed={80} />
 
         <div className="text-center md:text-left font-[family-name:var(--font-geist-mono)]">
-            <p className="text-xl mb-12 text-orange-700">Blockchain Developer | Front-End Developer.</p>
+            <p className="text-xl mb-12 text-orange-700">Front-End Developer.</p>
             <p className="text-3xl mb-2 text-orange-300">ABOUT ME</p>
             <p className="whitespace-pre-line text-base 2xl:text-xl">
 A passionate and dedicated programmer with a keen interest in blockchain technology. Currently pursuing a Computer Science degree, I've honed my skills through online
